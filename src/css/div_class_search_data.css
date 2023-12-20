@@ -1,0 +1,31 @@
+.search_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+
+.search_h2 {
+    max-width: 760px;
+    font-family: 'Ubuntu';
+    font-size: 26px;
+    text-align: center;
+}
+
+.search_list {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    list-style: circle;
+}
+
+.search_list li {
+    font-size: 25px;
+}

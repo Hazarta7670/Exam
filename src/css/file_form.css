@@ -1,0 +1,21 @@
+.file-form {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+
+.file-form span {
+    font-size: 20px;
+}
+
+.file-form input:hover {
+    cursor: pointer;
+}

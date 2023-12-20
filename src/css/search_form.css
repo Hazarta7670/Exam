@@ -1,0 +1,26 @@
+.search-form {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+
+.search-form select {
+    padding: 5px;
+    min-width: 100px;
+    border-radius: 10px;
+}
+
+.search-form button {
+    background-color: cadetblue;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
