@@ -57,7 +57,7 @@ function MainData({data, dataForSearch}) {
                     <SearchForm id={id} setId={setId} option={option} setOption={setOption} Search={Search} emp={emp} proj={proj}/>
                     <SearchData EndSearchData={EndSearchData} />
                 </>
-            : <p className='main_p'>No Data Yet! Load Your File First.</p>}
+            : <p className='main_p'>Place your file to find the pair of employees who have worked together on common projects for the longest period of time and the time for each of those projects.</p>}
         </>
     )
 }

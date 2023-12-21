@@ -31,4 +31,6 @@
 
 .main_p {
     font-size: 25px;
+    max-width: 760px;
+    text-align: center;
 }
