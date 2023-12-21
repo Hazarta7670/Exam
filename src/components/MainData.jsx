@@ -27,7 +27,9 @@ function MainData({data, dataForSearch}) {
 
     useEffect(() => {
         setEndSearchData([])
-    }, [dataForSearch])
+        setOption('')
+        setId('')
+    }, [data])
 
     useEffect(() => {
         if (option === 'Employee') {
