@@ -17,7 +17,7 @@
     align-items: center;
     border: 2px solid black;
     border-radius: 25px;
-    background-color: rgb(81, 210, 242);
+    background: linear-gradient(to right, #caf0f8, #03045e);
     box-shadow: 5px 5px 5px;
     gap: 30px;
 }
