@@ -1,8 +1,8 @@
-function MainList({data}) {
+function MainList({el}) {
     return (
         <ul className="main_list">
-            {data[0][1].map(el => 
-            <li key={el.projectID}>Worked on Project with ID: {el.projectID} for {el.days} {el.days > 1 ? 'days' : 'day'}.</li>)}
+            {el[1].map(el_info => 
+            <li key={el_info.projectID}>Worked on Project with ID: {el_info.projectID} for {el_info.days} {el_info.days > 1 ? 'days' : 'day'}.</li>)}
         </ul>
     )
 }

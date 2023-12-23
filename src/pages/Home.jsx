@@ -27,7 +27,8 @@ function Home() {
             const fixedDates = SettingDates(cleanedMatrix)
             setDataForSearch(fixedDates)
             const resultOfCalculations = ComplexCalculations(fixedDates)
-            setData(resultOfCalculations)
+            const mostDaysPairs = resultOfCalculations.filter(el => resultOfCalculations[0][2] === el[2])
+            setData(mostDaysPairs)
         }
     }
 

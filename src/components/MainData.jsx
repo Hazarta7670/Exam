@@ -51,11 +51,13 @@ function MainData({data, dataForSearch}) {
         <>
             {data ? 
                 <>
-                    <div className='main_data'>
-                        <h2 className='main_h2'>Employees with IDs: {data[0][0]} have worked together for the 
-                        longest: {data[0][2]} {data[0][2] > 1 ? 'days': 'day'}.</h2>
-                        <MainList data={data} />
-                    </div>
+                    {data.map(el => 
+                        <div className='main_data' key={el[0]}>
+                            <h2 className='main_h2'>Employees with IDs: {el[0]} have worked together for the 
+                            longest: {el[2]} {el[2] > 1 ? 'days': 'day'}.</h2>
+                            <MainList el={el} />
+                        </div>
+                    )}
                     <SearchForm id={id} setId={setId} option={option} setOption={setOption} Search={Search} emp={emp} proj={proj}/>
                     <SearchData EndSearchData={EndSearchData} />
                 </>

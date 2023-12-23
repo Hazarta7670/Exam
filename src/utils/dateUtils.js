@@ -5,7 +5,6 @@ function setNullDate() {
     let yyyy = today.getFullYear();
 
     today = yyyy + '/' + mm + '/' + dd;
-    console.log(today)
     return today
 }
 
@@ -16,7 +15,6 @@ function setOtherDates(date) {
     let yyyy = today.getFullYear();
 
     today = yyyy + '/' + mm + '/' + dd;
-    console.log(today)
     return today
 }
 
